@@ -1,9 +1,9 @@
-import Phaser from './node_modules/phaser';
+import Phaser from './node_modules/phaser/src/phaser';
 
 class SimpleGame {
 
     constructor() {
-        this.game = new Phaser.Game(800, 600, Phaser.AUTO, 'content', { create: this.create });
+       this.game = new Phaser.Game(800, 600, Phaser.AUTO, 'content', { create: this.create });       
     }
 
     game: Phaser.Game;
